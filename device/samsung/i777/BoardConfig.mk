@@ -26,7 +26,9 @@ TARGET_KERNEL_SOURCE := kernel/samsung/smdk4210
 TARGET_KERNEL_CONFIG := cyanogenmod_i777_defconfig
 
 TARGET_SPECIFIC_HEADER_PATH += device/samsung/i777/overlay/include
-EXYNOS4210_ENHANCEMENTS := true
+
+# assert
+TARGET_OTA_ASSERT_DEVICE := i777,SGH-I777
 
 # Use the non-open-source parts, if they're present
 -include vendor/samsung/i777/BoardConfigVendor.mk
