@@ -24,6 +24,7 @@
 # Extra Apps and files
 PRODUCT_COPY_FILES += \
     vendor/samsung/i777/Alert-SonarMerge.mp3:system/media/audio/notifications/Alert-SonarMerge.mp3 \
+    vendor/samsung/i777/apple_smsreceived.ogg:system/media/audio/notifications/apple_smsreceived.ogg \
     vendor/samsung/i777/CyanPing.ogg:system/media/audio/notifications/CyanPing.ogg \
     vendor/samsung/i777/IphoneCellSoundMerge.mp3:system/media/audio/ringtones/IphoneCellSoundMerge.mp3
 
